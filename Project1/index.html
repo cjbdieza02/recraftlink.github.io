@@ -1,0 +1,2207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Recraft Link</title>
+	<link rel="icon" href="images/logo/logo7.png" type="image/x-icon">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/secondSection.css">
+	<link rel="stylesheet" href="styles/products.css">
+	<link rel="stylesheet" href="styles/register.css">
+	<link rel="stylesheet" href="styles/modal.css">
+	<link rel="stylesheet" href="styles/text-carousel.css">
+	<link rel="stylesheet" href="styles/articles.css">
+	<link rel="stylesheet" href="styles/about.css">
+	<!-- <link rel="stylesheet" href="styles/sampleform.css"> -->
+
+
+	<!-- Local Folder Library -->
+	<link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+	<link rel="stylesheet" href="/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="owl_carousel/owl.carousel.css">
+	<link rel="stylesheet" href="owl_carousel/owl.theme.default.css">
+
+	<style>
+		@media (min-width: 1025px) {
+			.h-custom {
+				height: 100vh !important;
+			}
+		}
+	</style>
+</head>
+
+<body style="background-color: rgba(210, 240, 230, 1);">
+
+	<!-- Super Nav -->
+	<div class="container-fluid superNav border-bottom py-2 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile">
+					<select class="me-3 border-0 bg-light">
+						<option value="en-us">EN-US</option>
+					</select>
+					<span
+						class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-3"><strong>info@cjdieza@gmail.com</strong></span>
+					<span class="me-3"><i class="fa-solid fa-phone me-1 text-warning"></i>
+						<strong>1-800-123-1234</strong></span>
+				</div>
+				<div
+					class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
+					<span class="me-3"><i class="fa-solid fa-truck text-muted me-1"></i><a class="text-muted"
+							href="#">Shipping</a></span>
+					<span class="me-3"><i class="fa-solid fa-file  text-muted me-2"></i><a class="text-muted"
+							href="#">Policy</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm">
+		<div class="container">
+			<a class="navbar-brand" href="#"><i class="fa-solid fa-shop me-2 d-none d-sm-inline-block"></i>
+				<img class="p-0 m-0 rounded-2" src="images/logo/logo6.png" alt="">
+			</a>
+			<button class="navbar-toggler" style="padding: 2px;" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon" style="width: 20px;"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<!-- Search Bar -->
+
+				<div class="col d-none d-xl-flex border-1 border-warning  form-group">
+					<input class="search-bar ps-2 rounded-end-0 bg-light rounded-start-2 p-1 border-1 border-warning"
+						type="text" placeholder="Search">
+					<button class="btn btn-warning p-1 rounded-start-0">
+						<i class="fa fa-magnifying-glass"></i>
+					</button>
+				</div>
+				<ul class="navbar-nav ms-auto ">
+					<li class="nav-item">
+						<div class="mx-auto my-3 d-lg-none d-sm-block d-xs-block">
+							<div class="input-group">
+								<span class="border-warning input-group-text bg-warning text-white search-glass"><i
+										class="fa-solid fa-magnifying-glass "></i></span>
+								<input type="text" class="form-control border-warning" style="color:#7a7a7a">
+								<button class="btn btn-warning text-white">Search</button>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link mx-2 text-uppercase active" aria-current="page" href="#whtweoffer">Offers</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link mx-2 text-uppercase" href="#products">Products</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link mx-2 text-uppercase" href="#">Catalog</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link mx-2 text-uppercase" href="#services">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link mx-2 text-uppercase" href="#about-section">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ms-auto ">
+					<li class="nav-item">
+						<button type="button" class="btn login-button" data-bs-toggle="modal"
+							data-bs-target="#cartModal" data-bs-whatever="@mdo"><a class="nav-link mx-2 text-uppercase"
+								href="#"><i class="fa-solid fa-cart-shopping me-1"></i>
+								Cart</a></button>
+					<li class="nav-item">
+						<button type="button" class="btn login-button" data-bs-toggle="modal"
+							data-bs-target="#account-modal" data-bs-whatever="@mdo"><a
+								class="nav-link mx-2 text-uppercase" href="#"><i
+									class="fa-solid fa-circle-user me-1"></i>
+								Account</a></button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Modal -->
+	<section class="modal-section">
+		<!-- Account modal -->
+		<div class="modal fade " id="account-modal" tabindex="-1" aria-labelledby="login-modal-label"
+			aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img class="rounded-3" style="margin-left: auto;" src="images/logo/logo6.png" alt="">
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="d-flex align-content-center justify-content-center pt-3">
+						<h3><i class="fa-solid fa-circle-user me-1"></i>Account</h3>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Verify Account</li>
+							<li>Edit Profile</li>
+							<li>Change Email</li>
+							<li>Change Password</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Cart Modal -->
+		<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<section class="h-100 h-custom" style="background-color: #eee;">
+							<div class="container py-5 h-100">
+								<div class="row d-flex justify-content-center align-items-center h-75">
+									<div class="col">
+										<div class="card">
+											<div class="card-body p-4">
+												<div class="row">
+													<div class="col-lg-7">
+														<h5 class="mb-3"><a href="#!" class="text-body"><i
+																	class="fas fa-long-arrow-alt-left me-2"></i>Continue
+																shopping</a></h5>
+														<hr>
+														<div class="d-flex justify-content-between align-items-center mb-4">
+															<div>
+																<p class="mb-1">Shopping cart</p>
+																<p class="mb-0">You have 4 items in your cart</p>
+															</div>
+															<div>
+																<p class="mb-0"><span class="text-muted">Sort by:</span>
+																	<a href="#!" class="text-body">price <i
+																			class="fas fa-angle-down mt-1"></i></a>
+																</p>
+															</div>
+														</div>
+														<div class="card mb-3">
+															<div class="card-body">
+																<div class="d-flex justify-content-between">
+																	<div class="d-flex flex-row align-items-center">
+																		<div>
+																			<img src="images2/prada.jpg"
+																				alt="Shopping item" style="width: 65px;">
+																		</div>
+																		<div class="ms-3">
+																			<h5>Prada Bucket hat</h5>
+																			<p class="small mb-0">Nylon / cotton, Navy Blue</p>
+																		</div>
+																	</div>
+																	<div class="d-flex flex-row align-items-center">
+																		<div style="width: 50px;">
+																			<h5 class="fw-normal mb-0">2</h5>
+																		</div>
+																		<div style="width: 80px;">
+																			<h5 class="mb-0">$201</h5>
+																		</div>
+																		<a href="#!" style="color: #cecece;"><i
+																				class="fas fa-trash-alt"></i></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="card mb-3">
+															<div class="card-body">
+																<div class="d-flex justify-content-between">
+																	<div class="d-flex flex-row align-items-center">
+																		<div>
+																			<img src="images2/bag2.jpg"
+																				alt="Shopping item" style="width: 65px;">
+																		</div>
+																		<div class="ms-3">
+																			<h5>Tote 30 Bag</h5>
+																			<p class="small mb-0">recycled garments, Eco Bag</p>
+																		</div>
+																	</div>
+																	<div class="d-flex flex-row align-items-center">
+																		<div style="width: 50px;">
+																			<h5 class="fw-normal mb-0">2</h5>
+																		</div>
+																		<div style="width: 80px;">
+																			<h5 class="mb-0">$201</h5>
+																		</div>
+																		<a href="#!" style="color: #cecece;"><i
+																				class="fas fa-trash-alt"></i></a>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- Add more card elements here if needed -->
+													</div>
+													<div class="col-lg-5">
+														<div class="card bg-primary text-white rounded-3">
+															<div class="card-body">
+																<div
+																	class="d-flex justify-content-between align-items-center mb-4">
+																	<h5 class="mb-0">Card details</h5>
+																	<img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
+																		class="img-fluid rounded-3" style="width: 45px;"
+																		alt="Avatar">
+																</div>
+	
+																<p class="small mb-2">Card type</p>
+																<a href="#!" type="submit" class="text-white"><i
+																		class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+																<a href="#!" type="submit" class="text-white"><i
+																		class="fab fa-cc-visa fa-2x me-2"></i></a>
+																<a href="#!" type="submit" class="text-white"><i
+																		class="fab fa-cc-amex fa-2x me-2"></i></a>
+																<a href="#!" type="submit" class="text-white"><i
+																		class="fab fa-cc-paypal fa-2x"></i></a>
+	
+																<form class="mt-4">
+																	<div class="form-outline form-white mb-4">
+																		<input type="text" id="typeName"
+																			class="form-control form-control-lg" siez="17"
+																			placeholder="Cardholder's Name" />
+																		<label class="form-label"
+																			for="typeName">Cardholder's Name</label>
+																	</div>
+	
+																	<div class="form-outline form-white mb-4">
+																		<input type="text" id="typeText"
+																			class="form-control form-control-lg" siez="17"
+																			placeholder="1234 5678 9012 3457" minlength="19"
+																			maxlength="19" />
+																		<label class="form-label" for="typeText">Card
+																			Number</label>
+																	</div>
+	
+																	<div class="row mb-4">
+																		<div class="col-md-6">
+																			<div class="form-outline form-white">
+																				<input type="text" id="typeExp"
+																					class="form-control form-control-lg"
+																					placeholder="MM/YYYY" size="7" id="exp"
+																					minlength="7" maxlength="7" />
+																				<label class="form-label"
+																					for="typeExp">Expiration</label>
+																			</div>
+																		</div>
+																		<div class="col-md-6">
+																			<div class="form-outline form-white">
+																				<input type="password" id="typeText"
+																					class="form-control form-control-lg"
+																					placeholder="&#9679;&#9679;&#9679;"
+																					size="1" minlength="3" maxlength="3" />
+																				<label class="form-label"
+																					for="typeText">Cvv</label>
+																			</div>
+																		</div>
+																	</div>
+	
+																</form>
+	
+																<hr class="my-4">
+	
+																<div class="d-flex justify-content-between">
+																	<p class="mb-2">Subtotal</p>
+																	<p class="mb-2">$402</p>
+																</div>
+	
+																<div class="d-flex justify-content-between">
+																	<p class="mb-2">Shipping</p>
+																	<p class="mb-2">$20.00</p>
+																</div>
+	
+																<div class="d-flex justify-content-between mb-4">
+																	<p class="mb-2">Total(Incl. taxes)</p>
+																	<p class="mb-2">$422</p>
+																</div>
+	
+																<button type="button" class="btn btn-info btn-block btn-lg">
+																	<div class="d-flex justify-content-between">
+																		<span>$422</span>
+																		<span>Checkout <i
+																				class="fas fa-long-arrow-alt-right ms-2"></i></span>
+																	</div>
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Member Login Modal -->
+		<div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modal-label" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5" id="login-modal-label">Member Login</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="d-flex align-content-center justify-content-center pt-3">
+						<img class="rounded-3" src="images/logo/logo6.png" alt="">
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="mb-3">
+								<label for="login-email" class="form-label">Email:</label>
+								<input type="email" class="form-control" id="login-email" required>
+							</div>
+							<div class="mb-3">
+								<label for="login-password" class="form-label">Password:</label>
+								<input type="password" class="form-control" id="login-password" required>
+							</div>
+							<div class="mb-3 form-check">
+								<input type="checkbox" class="form-check-input" id="remember-me">
+								<label class="form-check-label" for="remember-me">Remember me</label>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Login</button>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Details/Profile modal -->
+		<div>
+			
+		</div>
+	</section>
+
+	<!-- Main Intro -->
+	<section class="main-intro">
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9">
+						<h1 class="display-4 page-title">ReCraft Link</h1>
+						<p class="lead sub-title"><b>Connecting Sustainable Creations</b> - Your Gateway to Recycled
+							Crafts and Eco
+							Friendly Goods
+						</p>
+						<button type="button" class="btn btn-success login-button" data-bs-toggle="modal"
+							data-bs-target="#login-modal" data-bs-whatever="@mdo">Member's Login</button>
+						<a href="#register-form" class="btn btn-success join-button">Join Now</a>
+					</div>
+					<div class="col-md-3 py-5">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Articles -->
+	<section class="container second-section mt-5 py-3">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-9 article" style="background-color: rgba(230, 255, 255, 0.5);">
+					<div class="container mt-5">
+						<div class="jumbotron">
+							<h3 class="display-6">Welcome to Our Sustainable Community: Join the Recycled Revolution!
+							</h3>
+							<p class="lead">Hello, Environmental Enthusiasts, Waste Material Collectors, Manufacturers,
+								and Recycled
+								Product
+								Sellers!</p>
+							<p>Are you ready to make a positive impact on our planet? You're in the right place to join
+								our dynamic
+								online
+								community committed to promoting and celebrating products made from 100% recycled
+								materials.</p>
+							<hr class="my-4">
+							<h3>Discover:</h3>
+							<p>At <a class="article-links" href="#">ReCraftLink</a>, we're dedicated to connecting
+								individuals, businesses, and organizations
+								that share a
+								common
+								purpose: championing recycled materials for a greener world. Our platform is the meeting
+								point for waste
+								material collectors, innovative manufacturers, and passionate sellers of recycled
+								products.</p>
+							<h4>Join Us</h4>
+							<ul>
+								<li><a class="article-links" href="#">Connect and Collaborate</a>: Engage with a vibrant
+									network of like-minded individuals
+									who are passionate
+									about
+									recycling and sustainability. Collaborate on projects, share insights, and learn
+									from each other's
+									experiences.</li>
+								<li><a class="article-links" href="#">Showcase Your Impact</a>: If you're a manufacturer
+									or seller of products crafted from
+									100% recycled
+									materials,
+									our platform offers you the ideal space to showcase your offerings to an
+									environmentally-conscious
+									audience.
+								</li>
+								<li><a class="article-links" href="#">Stay Informed</a>: Access the latest trends, news,
+									and advancements in recycling and
+									sustainable living.
+									Stay
+									ahead by participating in discussions and staying connected with industry experts.
+									<span><a href="">Subscribe</a></span>
+								</li>
+								<li><a class="article-links" href="#">Empower Change</a>: Being part of our community
+									contributes to a larger movement that
+									promotes
+									responsible
+									consumption, waste reduction, and a circular economy. Your actions can inspire
+									others to make greener
+									choices.
+								</li>
+							</ul>
+							<h4>How to <span class="get-started"><a href="">Get Started</a></span>:</h4>
+							<ul>
+								<li>Explore Our Community: You're in the right place! Delve into our platform at [Your
+									Website URL] to
+									learn
+									about our mission and values.</li>
+								<li>Join the Movement: Click "Join Now" to become a valued member. Waste material
+									collectors,
+									manufacturers,
+									sellers, and eco-conscious individuals are all welcome.</li>
+								<li>Engage and Connect: As a member, jump into discussions, share insights, and connect
+									with fellow
+									members.
+									Don't forget to create your profile to highlight your role in the recycled materials
+									ecosystem.</li>
+							</ul>
+							<h3>Together, We Create Change:</h3>
+							<p>Join us in shaping a world where waste is transformed into treasure, and every product
+								carries the mark
+								of
+								sustainability. Together, we can drive change, raise awareness, and build a future that
+								prioritizes the
+								planet
+								and the generations to come.</p>
+							<p class="">
+								Ready to embark on this exciting journey? You're in the right place, and let's ignite
+								the recycled
+								revolution
+								together.
+							</p>
+							<p class="">See you on the inside!</p>
+						</div>
+						<hr>
+					</div>
+
+					<div class="pt-5 phar">
+						<p class="lead par1" style="font-size: 14px;">Recycling has evolved into a diverse spectrum of
+							practices, encompassing an
+							array of
+							products that cater to different needs. From outdoor equipment to children's toys, the
+							market now offers
+							ingenious items crafted entirely from reclaimed materials, including milk jugs, discarded
+							fabrics, and
+							even repurposed plastic water bottles. In the following examples, the synergy between
+							manufacturers and
+							retailers showcases their capacity to transform various materials into not only striking but
+							also lavish
+							products, delighting consumers.
+						</p>
+					</div>
+					<div class="container carousel-container">
+						<div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+							<!-- Carousel Indicators -->
+							<ol class="carousel-indicators">
+								<li data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"></li>
+								<li data-bs-target="#carouselCaptions" data-bs-slide-to="1"></li>
+								<li data-bs-target="#carouselCaptions" data-bs-slide-to="2"></li>
+							</ol>
+
+							<!-- Carousel Items -->
+							<div class="carousel-inner ">
+								<div class="carousel-item active">
+									<img src="images/carousel/carousel3.png" class="d-block w-100" alt="image">
+									<div class="carousel-caption d-none d-md-block">
+										<h5 class="mb-0">First slide label</h5>
+										<p class="mb-0">Some representative placeholder content for the first slide.</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/images/carousel/carousel1.png" class="d-block w-100" alt="image">
+									<div class="carousel-caption d-none d-md-block">
+										<h5 class="mb-0">Second slide label</h5>
+										<p class="mb-0">Some representative placeholder content for the second slide.
+										</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="/images/carousel/carousel2.png" class="d-block w-100" alt="image">
+									<div class="carousel-caption d-none d-md-block">
+										<h5 class="mb-0">Third slide label</h5>
+										<p class="mb-0">Some representative placeholder content for the third slide.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Carousel Control Buttons -->
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
+								data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions"
+								data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+
+					<p class="lead carousel-paragraph my-4 " style="font-size: 14px;">These pioneering companies are not
+						only contributing to
+						waste reduction
+						but also curbing carbon emissions while playing a pivotal role in preventing plastic pollution
+						in our
+						oceans. <a href="https://www.tipco.com.ph/" class="company-profiles-link fw-bold text-dark"
+							style="font-size: 18px;">Discover the profiles</a> of
+						some of the
+						most prominent and dedicated advocates of recycling, and
+						witness their commitment to reshaping industries for a more sustainable future.</p>
+
+				</div>
+				<div class="container-fluid col-lg-3 border-3 py-2">
+					<div class="row">
+						<div class="pb-4 ">
+							<h1 class="text-center display-6 fs-4">Share your thoughts</h1>
+							<ul>
+								<li><a href="">Register</a></li>
+								<li><a href="">Post your comment below</a></li>
+								<li><a href="">Leave a comment</a></li>
+							</ul>
+							<div class="scroll-container">
+								<div class="darker mb-5 mt-1 comment-container">
+									<img src="https://picsum.photos/500/230" alt="" class="rounded-circle" width="40"
+										height="40">
+									<h4>bonginkosi gwangqa</h4>
+									<span class="date1">April 13, 2019 at 5:15 AM</span>
+									<br>
+									<div class="comment-content1">
+										<div class="content">
+											<p>
+												i would like to know if how can i register my small company under this
+												projects we are based in south africa
+												we design tyre furniture,plastic bowls and sea stone crafted maps
+											</p>
+										</div>
+									</div>
+									<p class="more"><a href="">reply</a></p>
+								</div>
+								<div class="darker mb-5 mt-1 comment-container">
+									<img src="https://picsum.photos/500/230" alt="" class="rounded-circle" width="40"
+										height="40">
+									<h4>bonginkosi gwangqa</h4>
+									<span class="date1">April 13, 2019 at 5:15 AM</span>
+									<br>
+									<div class="comment-content1">
+										<div class="content">
+											<p>
+												i would like to know if how can i register my small company under this
+												projects we are based in south africa
+												we design tyre furniture,plastic bowls and sea stone crafted maps
+											</p>
+										</div>
+									</div>
+									<p class="more"><a href="">reply</a></p>
+								</div>
+								<div class="darker mb-5 mt-1 comment-container">
+									<img src="https://picsum.photos/500/230" alt="" class="rounded-circle" width="40"
+										height="40">
+									<h4>bonginkosi gwangqa</h4>
+									<span class="date1">April 13, 2019 at 5:15 AM</span>
+									<br>
+									<div class="comment-content1">
+										<div class="content">
+											<p>
+												i would like to know if how can i register my small company under this
+												projects we are based in south africa
+												we design tyre furniture,plastic bowls and sea stone crafted maps
+											</p>
+										</div>
+									</div>
+									<p class="more"><a href="">reply</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<form id="algin-form" class="p-3">
+						<div class="form-group">
+							<h4>Leave a comment</h4>
+							<label for="message">Message</label>
+							<textarea name="msg" id="" msg cols="10" rows="2" class="form-control"
+								style="background-color: rgb(200, 200, 200);"></textarea>
+						</div>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="fullname" class="form-control" style="height: 24px;">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" class="form-control" style="height: 24px;">
+						</div>
+						<div class="form-group">
+							<p class="text-secondary" style="margin-bottom: 0;">If you have a <a href="#"
+									class="alert-link" style="margin-bottom: 0;">gravatar account</a>
+								your address
+								will be used to display your profile picture.</p>
+						</div>
+						<div class="form-inline" style="padding-top: 0; margin-top: 0;">
+							<input type="checkbox" name="check" id="checkbx" class="mr-1">
+							<label for="subscribe" style="padding-top: 0;">Subscribe me to the newlettter</label>
+						</div>
+						<div class="form-group">
+							<button type="button" id="post" class="btn bg-success text-light p-1">Post Comment</button>
+						</div>
+					</form>
+
+					<!-- Updates Container -->
+					<div class="pt-5 d-flex align-items-center justify-content-center">
+						<h2 class="text-center">Updates</h2>
+					</div>
+					<div class="sample">
+						<div class="container">
+							<section class="mx-auto" style="max-width: 23rem;">
+								<div class="card">
+									<div class="card-body d-flex flex-row">
+										<img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-8.jpg"
+											class="rounded-circle me-3" height="50px" width="50px" alt="avatar" />
+										<div>
+											<h5 class="card-title font-weight-bold mb-2">New equipments</h5>
+											<p class="card-text"><i class="far fa-clock pe-2"></i>07/24/2018</p>
+										</div>
+									</div>
+									<div class="bg-image hover-overlay ripple rounded-0" data-mdb-ripple-color="light">
+										<img class="img-fluid"
+											src="https://blog.bizvibe.com/wp-content/uploads/2020/03/Plastic-Manufacturing-Companies.jpg"
+											alt="Card image cap" />
+										<a href="#!">
+											<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+											</div>
+										</a>
+									</div>
+									<div class="card-body">
+										<p class="card-text collapse" id="collapseContent">
+											Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque
+											nam sit porro tenetur
+											temporibus? Odio
+											officiis tenetur cupiditate excepturi, incidunt placeat blanditiis illo
+											nobis at fugit quod, vero
+											doloribus?
+										</p>
+										<div class="d-flex justify-content-between">
+											<a class="btn btn-link link-danger p-md-1 my-1" data-mdb-toggle="collapse"
+												href="#collapseContent" role="button" aria-expanded="false"
+												aria-controls="collapseContent">Read more</a>
+											<div>
+												<i class="fas fa-share-alt text-muted p-md-1 my-1 me-2"
+													data-mdb-toggle="tooltip" data-mdb-placement="top"
+													title="Share this post"></i>
+												<i class="fas fa-heart text-muted p-md-1 my-1 me-0"
+													data-mdb-toggle="tooltip" data-mdb-placement="top"
+													title="I like it"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Products -->
+	<section>
+	</section>
+
+	<section class="py-5 mt-5" id="products" style="background-color: rgb(255, 245, 255);">
+		<div class="container trashion">
+		</div>
+		<div class="container product-container">
+			<div class="row my-5">
+				<h1 class="text-center">Fashion Forward</h1>
+				<p class="fw-light w-75 mx-auto text-center">Dive into a world of style with our recycled fashion line.
+					Discover stunning attire made from recycled fabrics that not only accentuate your personality but
+					also reflect your values. Every stitch carries a story of eco-conscious creativity, giving you the
+					confidence to flaunt your fashion choices.</p>
+			</div>
+			<div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/prada.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Logo-plaque
+							recycled-nylon and shearling bucket hat...</a>
+							<button id="openProfileModal" class="btn btn-primary" style="font-size: 10px; padding: 2px;">Contact seller</button>
+							<br>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/bag1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">multifunctional,
+							versatile, and eco-friendly bags ethically made with organic and recycled ... </a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/bag2.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Recycling Makes Me
+							Feel Good Tote 30 Bag</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/footware1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Footwares made with
+							upcycled or recycled materials</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/bag3.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Organic, Fair
+							Trade, recycled garments</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/bag4.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Organic, Fair
+							Trade, recycled, vegan, BIPOC, made in the USA</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/jacket1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">100% post-consumer
+							recycled plastic,</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/take away1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Utils</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Food grade recycled
+							papers</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images/product-9.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="handicrafts">
+
+			</div>
+			<div class="row my-5">
+				<h1 class="text-center">Experience Eco-Chic Today</h1>
+				<p class="fw-light w-75 mx-auto text-center">Step into a world where style and sustainability intertwine
+					seamlessly. Our recycled products empower you to showcase your unique taste while being a part of a
+					global effort to protect our planet. Explore our collection, make a choice that resonates with you,
+					and embrace the journey towards a brighter, greener future – one elegant recycled piece at a time.
+				</p>
+			</div>
+			<div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">HandMade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Bed of Nails Eco Acupressure Mat and Pillow</a>
+						<span class="product-price">$ 100</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand2.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Handmade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Looptworks Card Sleeve Wallet</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand3.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">HandMade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Couch Guitar Straps</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand4.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">HandMade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Makeup Without Waste
+							Elate Cosmetics Creme Revealer Concealer</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand5.png" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Crafts</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Teacup Crafts</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand6.png" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">HandMade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Picture Frame Crafts</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand7.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">HandMade</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Soda Can Crafts</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand8.png" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Handcrafts</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Frames</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/hand10.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Handmade/Fashion</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">assorted charms, bangle bracelets,</a>
+						<span class="product-price">$ 10</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="toys">
+
+			</div>
+			<div class="row my-5">
+				<h1 class="text-center">Recycled Fun, Safe for Everyone</h1>
+				<p class="fw-light w-75 mx-auto text-center">We believe in playful learning that's safe and sustainable.
+					Our food-grade toys are not only gentle on little hands but also on the Earth. Join the recycling
+					revolution with every playtime!</p>
+			</div>
+			<div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images3/toy1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Toys</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Eco Nation Lop-Eared RabbitDefault Title | Soft toy animals, Soft toys making, Rabbit soft toy</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-1.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Toys</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Toys</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-2.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Toys</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Toys</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-3.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-4.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-5.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-6.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-7.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col product-item mx-auto">
+					<div class="product-img">
+						<img src="images2/product-8.jpg" alt="" class="img-fluid d-block mx-auto">
+						<span class="heart-icon">
+							<i class="far fa-heart"></i>
+						</span>
+						<div class="row btns w-100 mx-auto text-center">
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-cart-plus"></i> Add to Cart
+							</button>
+							<button type="button" class="col-6 py-2">
+								<i class="fa fa-binoculars"></i> View
+							</button>
+						</div>
+					</div>
+
+					<div class="product-info p-3">
+						<span class="product-type">Electronics & Accessories</span>
+						<a href="#" class="d-block text-dark text-decoration-none py-2 product-name">Apple - Apple Watch
+							Series 3 White Sports Band</a>
+						<span class="product-price">$ 100.50</span>
+						<div class="rating d-flex mt-1">
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>
+								<i class="fa fa-star"></i>
+							</span>
+							<span>(25 reviews)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Register Form -->
+	<div class="register-photo" id="register-form">
+		<div class="form-container">
+			<div class="image-holder"></div>
+			<form method="post">
+				<h2 class="text-center"><strong>Create</strong> an account.</h2>
+				<div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+				<div class="form-group"><input class="form-control" type="password" name="password"
+						placeholder="Password">
+				</div>
+				<div class="form-group"><input class="form-control" type="password" name="password-repeat"
+						placeholder="Password (repeat)"></div>
+				<div class="form-group">
+					<div class="form-check"><label class="form-check-label"><input class="form-check-input"
+								type="checkbox">I
+							agree to the license terms.</label></div>
+				</div>
+				<div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div><a
+					href="#" class="already">You already have an account? Login here.</a>
+			</form>
+		</div>
+	</div>
+
+	<!-- Sample modal -->
+	<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+		Open Cart Modal
+	</button> -->
+	<!-- Button to open the profile modal -->
+
+
+<!-- Profile Modal -->
+<div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="profile-modal-container">
+                    <div class="container mt-5 layer2">
+                        <div class="row d-flex justify-content-center">
+                            <div class="card p-3 py-4 profile-card">
+                                <div class="text-center">
+                                    <img src="images1/profilePicture.jpg" width="100" class="rounded-circle" alt="">
+                                </div>
+                                <div class="text-center mt-3">
+                                    <!-- <span class="bg-secondary p-1 px-4 rounded">Hello</span> -->
+                                    <h5 class="mt-2 mb-0">CJ Dieza</h5>
+                                    <span>Seller</span>
+                                    <div class="px-4 mt-1">
+                                        <p class="fonts" style="font-size: 11px;">Seller</p>
+                                    </div>
+                                    <ul class="social-lists" style="display: flex; list-style: none; justify-content: center; padding: 0;">
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                        <li><i class="fab fa-instagram"></i></li>
+                                        <li><i class="fab fa-linkedin"></i></li>
+                                        <li><i class="fab fa-google"></i></li>
+                                    </ul>
+                                    <div class="buttons buttons11 d-flex flex-column">
+                                        <button class="btn btn-outline-primary px-2">Message</button>
+                                        <button class="btn btn-primary px-2 mt-2">Add to Contact</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<!-- About -->
+	<section class="about" id="about-section">
+		<div class="container">
+			<div class="mt-5">
+				<h2 class="display-6 about-about" style="font-size: xx-large;">About ReCraftLink: Forging Sustainable
+					Connections and Recycling
+					Possibilities</h2>
+				<p class="lead" style="font-size: large;">Welcome to ReCraftLink, your gateway to a world where
+					sustainable connections thrive,
+					waste finds new purpose, and recycled products take center stage. At ReCraftLink, we're not just an
+					online platform – we're a vibrant community driven by a collective commitment to reshape the way we
+					approach recycling and responsible living.</p>
+			</div>
+			<div class="mt-5">
+				<h3 class="display-6" style="font-size: xx-large;">Our Mission:</h3>
+				<p class="lead" style="font-size: large;">Our mission is to reshape the future by offering a platform
+					that bridges the gap between
+					innovative creators and environmentally conscious individuals. We believe that every discarded item
+					can be a stepping stone towards sustainability. Through ReCraftLink, we're transforming waste into
+					potential and fostering a renewed perspective on materials.</p>
+			</div>
+			<div class="mt-5" id="whtweoffer">
+				<h3 class="display-6" style="font-size: xx-large;">What We Offer:</h3>
+				<ul class="lead" style="font-size: large;">
+					<li>Curated Marketplace: Our marketplace is exclusively dedicated to recycled and eco-friendly
+						products. Whether you're a creator, a buyer with a passion for sustainable choices, or a waste
+						material collector, you'll find a curated array of items that exemplify innovation and conscious
+						consumption.</li>
+					<li>Empowering Collectors: For waste material collectors, ReCraftLink is more than a platform; it's
+						a space where you can link up with companies in search of reusable materials. Your efforts
+						contribute to a circular economy, and we're here to amplify your impact.</li>
+					<li>Inspiring Collaborations: ReCraftLink transcends transactions. It's a hub of like-minded
+						individuals and entities committed to sustainable living. Connect, share ideas, and collaborate
+						on projects that ignite positive change.</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="display-6">Our Vision</h3>
+				<p class="lead">We envision a world where waste is no longer discarded, but transformed into valuable
+					resources. A world where every product tells a tale of renewal and purpose. By bringing together
+					creators, buyers, and waste collectors, ReCraftLink aspires to lead the charge in this
+					transformative journey toward a greener, more conscious future.</p>
+			</div>
+			<div class="my-5">
+				<p class="lead text-center">ReCraftLink is more than a platform; it's a movement of ideas, connections,
+					and change. It's an invitation to rethink waste, embrace innovation, and champion sustainable
+					living. Whether you're a seller, a buyer, or a waste material collector, your presence with us
+					signifies a step toward a world where each choice contributes.</p>
+				<p class="lead">Let's embark on this journey together. Join ReCraftLink and let's reshape what's
+					possible for a brighter and more sustainable tomorrow.</p>
+				<p class="lead">With eco-conscious regards,</p>
+				<span class="lead">recraftlink.com</span>
+
+			</div>
+
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+			<!-- Grid container -->
+			<div class="container p-4 pb-0">
+				<!-- Section: Links -->
+				<section class="">
+					<!--Grid row-->
+					<div class="row">
+						<!--Grid column-->
+						<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Connect with Us:</h5>
+							<p>
+								For inquiries, support, or collaborations, reach us at:
+
+								cdjbdieza@gmail.com
+								© 2023 ReCraftLink. All Rights Reserved.
+
+							</p>
+
+							<a href="">Privacy Policy </a> | <a href="">Terms of Use</a>
+
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase" id="services">Services</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Product Repair and Restoration</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Customization and Personalization</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Eco-Friendly Packaging</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Virtual Try-On Services</a>
+								</li>
+							</ul>
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Offers</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Product Care Guides</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Recycling and Donations Programs</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Sustainable Lifestyle Consultations</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Educational Workshops and Webinars</a>
+								</li>
+							</ul>
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Links</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Transform Waste</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Connect with Collectors</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Discover Materials</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Contribute to Sustainability</a>
+								</li>
+							</ul>
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+							<h5 class="text-uppercase">Links</h5>
+
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#!" class="text-white">Link 1</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Link 2</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Link 3</a>
+								</li>
+								<li>
+									<a href="#!" class="text-white">Link 4</a>
+								</li>
+							</ul>
+						</div>
+						<!--Grid column-->
+					</div>
+					<!--Grid row-->
+				</section>
+				<!-- Section: Links -->
+
+				<hr class="mb-4" />
+
+				<!-- Section: CTA -->
+				<section class="">
+					<p class="d-flex justify-content-center align-items-center">
+						<span class="me-3">Register for free</span>
+						<button type="button" class="btn btn-outline-light btn-rounded">
+							Sign up!
+						</button>
+					</p>
+				</section>
+				<!-- Section: CTA -->
+
+				<hr class="mb-4" />
+
+				<!-- Section: Social media -->
+				<section class="mb-4 text-center">
+					<!-- Facebook -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-facebook-f"></i></a>
+
+					<!-- Twitter -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-twitter"></i></a>
+
+					<!-- Google -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-google"></i></a>
+
+					<!-- Instagram -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-instagram"></i></a>
+
+					<!-- Linkedin -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-linkedin-in"></i></a>
+
+					<!-- Github -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+							class="fab fa-github"></i></a>
+				</section>
+				<!-- Section: Social media -->
+			</div>
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2023 Copyright:
+				<a class="text-white" href="https://mdbootstrap.com/">recraftlink.com</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+	</footer>
+
+
+	
+	<!-- jquery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- owl carousel -->
+	<script src="owl_carousel/owl.carousel.js"></script>
+	<script src="script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="/bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+</body>
+</html>

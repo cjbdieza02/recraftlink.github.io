@@ -1,0 +1,27 @@
+Problem
+However, our current approach faces limitations. The products manufactured from these materials have limited exposure and are mainly displayed during local events like fiestas. Additionally, the production process is slow due to various factors. Moreover, the Material Recovery Facilities have reached their maximum capacity, posing a challenge to the entire process.
+
+ I have developed a website. This platform serves as a virtual marketplace, connecting sellers of these recycled products with potential buyers from companies from local to global.
+
+
+* Start
+minimized the use of animations and employed a subdued color palette for a more timeless, user-friendly design. 
+The initial section, it features a background that symbolizes a wholesome environment and responsible waste management.
+
+
+and below, i incorporated two buttons and apply some slight hover effects to enhance interactivity, ,heres the members login , if you click it, it triggers a popup where users or registered users can input theiremail and password for login and if you are new here, selecting the Join button redirects you to a user registration 
+
+* Cart Account
+
+* In this section, I've composed a series of articles that delve into the advantages of utilizing this platform. These articles shed light on the accomplishments attainable through our services, while simultaneously inspiring interested viewers to become active participants in our thriving community.
+
+*right-side 
+organized layout features a selection of links, and a container providing access to related posts for further exploration. and also a comment box awaits your input, offering a convenient space to engage with the content. Should you wish to contribute, simply provide your email address to share your thoughts and insights. This intuitive design encourages seamless interaction and fosters a sense of community involvement.
+
+* Updates 
+a streamlined update system. and it will delivered directly to your email inbox. For those who have subscribed to our platform, this feature ensures that you stay informed without any extra effort. and all important announcements, new content, or community highlights, you'll receive the latest news effortlessly, keeping you updated.
+
+and this section as you can see, this container acts like spotlight for companies that have played a pivotal role , By clicking on the "Discover their Profile" link, you'll gain access to comprehensive information about each company. or if you want to do business with them you can actualy contact them
+
+the next are the products, and i simply organized them based on their categiories, and the image attach behind acts like visual division of each catagories
+

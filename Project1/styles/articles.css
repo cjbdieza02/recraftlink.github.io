@@ -1,0 +1,22 @@
+.article-links {
+    font-size: 18px;
+    text-decoration: none;
+    color: #010101;
+}
+
+.article-links:hover {
+    color: #7c7c7c;
+    text-decoration: underline;
+    background-color: rgba(210, 150, 255, 0.4);
+}
+
+.get-started a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+}
+
+.get-started:hover {
+    text-decoration: underline;
+
+}

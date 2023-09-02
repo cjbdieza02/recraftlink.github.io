@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&family=Urbanist:wght@200;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserat' sans-serif;
+}
+
+
+a {
+  font-size: 14px;
+  font-weight: 700;
+}
+.superNav {
+  font-size:13px;
+}
+.form-control {
+  outline:none !important;
+  box-shadow: none !important;
+}
+@media screen and (max-width:540px){
+  .centerOnMobile {
+    text-align:center
+  }
+}
+
+/* Search Bar */
+
+.search-bar {
+  width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+  }
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+}
+
+/* Main Intro styling */
+body {
+  background-color: rgb(230, 230, 230,);
+}
+
+.main-intro {
+  background-image: url('/images/background2.jpg');
+  padding: 40px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.main-intro .jumbotron {
+  height: 80vh;
+  width: auto;
+}
+
+.main-intro .page-title {
+  font-family: 'Montserrat' Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.main-intro .sub-title {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.main-intro .login-button,
+.main-intro .join-button {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .main-intro {
+    height: auto;
+    padding: 0;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  
+  }
+  .login-button, .join-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
